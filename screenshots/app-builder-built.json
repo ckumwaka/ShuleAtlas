@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Shule Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 7825,
+      "bodyTextHash": "fb2802cdcd40d959583f90b1b07f52cab03e1430f877f5c034085916f581b07c",
+      "bodyTextPrefix": "Shule Atlas Kenya school resource mapper Export view Log school ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Shule Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 115,
+      "bodyTextHash": "8d19e97f13297c5485da4a71964e8be53171970d1256f275800e7c7e4717c656",
+      "bodyTextPrefix": "Shule Atlas Kenya school resource mapper Log school Loading the ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: body text changed (189 -> 115 chars, hash mismatch)"
+  ]
+}
